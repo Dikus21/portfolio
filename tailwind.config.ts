@@ -9,10 +9,19 @@ export default {
   theme: {
     extend: {
       colors: {
+        primary: "var(--color-primary)",
+        secondary: "var(--color-secondary)",
+        textContent: "var(--color-text-content)",
+        subtitle: "var(--color-subtitle)",
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      backgroundImage: {
+        "title-gradient": "var(--color-title)",
+        "accent-gradient": "var(--color-accent)", 
+      }
     },
   },
   plugins: [],
+  darkMode: 'class'
 } satisfies Config;
