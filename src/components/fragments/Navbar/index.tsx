@@ -33,8 +33,8 @@ const Navbar = () => {
   if (!mounted) return null;
 
   return (
-    <nav className="sticky top-0 left-0 w-full bg-[#F3F3F3] dark:bg-[#13131C] dark:bg-opacity-95 bg-opacity-95">
-      <div className="py-4 lg:py-8 relative flex justify-between w-full">
+    <nav className="sticky top-0 left-0 py-4 lg:py-8 w-full bg-[#F3F3F3] dark:bg-[#13131C] dark:bg-opacity-95 bg-opacity-95">
+      <div className="relative flex justify-between w-full">
         {/* Menu Button (Mobile) */}
         <button
           className={`lg:hidden p-2 focus:outline-none flex w-full justify-start ${
