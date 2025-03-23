@@ -1,10 +1,17 @@
 import LogoLink from "@/components/elements/LogoLink";
 import Link from "next/link";
 import React from "react";
+import Contact from "./Contact";
 
 const Footer = () => {
   return (
-    <footer className="flex flex-col gap-8 pb-28">
+    <footer className="flex flex-col gap-8 pb-28 relative">
+      <div className="w-screen relative left-1/2 -translate-x-1/2 pb-24">
+        <hr className="border-t-2 border-white" />
+      </div>
+      <div className="absolute -top-[85px] z-10">
+        <Contact />
+      </div>
       <div className="flex flex-row lg:justify-center justify-between lg:gap-[250px]">
         <div className="flex flex-col gap-6">
           <p className="text-primary font-bold">Pages</p>
@@ -102,7 +109,7 @@ const Footer = () => {
               >
                 <path d="M0.570312 13.6666V8.66658L7.23698 6.99992L0.570312 5.33325V0.333252L16.4036 6.99992L0.570312 13.6666Z" />
               </svg>
-              <p className="text-subtitle">example@gmail.com</p>
+              <p className="text-subtitle">andikatirta001@gmail.com</p>
             </div>
             <div className="flex flex-row gap-2.5">
               <svg
@@ -112,9 +119,7 @@ const Footer = () => {
                 className="fill-secondary"
                 xmlns="http://www.w3.org/2000/svg"
               >
-                <path
-                  d="M7.07048 9.00008C7.52881 9.00008 7.92131 8.83675 8.24798 8.51008C8.57409 8.18397 8.73714 7.79175 8.73714 7.33341C8.73714 6.87508 8.57409 6.48258 8.24798 6.15591C7.92131 5.8298 7.52881 5.66675 7.07048 5.66675C6.61214 5.66675 6.21992 5.8298 5.89381 6.15591C5.56714 6.48258 5.40381 6.87508 5.40381 7.33341C5.40381 7.79175 5.56714 8.18397 5.89381 8.51008C6.21992 8.83675 6.61214 9.00008 7.07048 9.00008ZM7.07048 17.3334C4.83436 15.4306 3.16436 13.6631 2.06048 12.0309C0.956031 10.3992 0.403809 8.88897 0.403809 7.50008C0.403809 5.41675 1.07409 3.75703 2.41464 2.52091C3.75464 1.2848 5.30659 0.666748 7.07048 0.666748C8.83436 0.666748 10.3863 1.2848 11.7263 2.52091C13.0669 3.75703 13.7371 5.41675 13.7371 7.50008C13.7371 8.88897 13.1852 10.3992 12.0813 12.0309C10.9769 13.6631 9.30659 15.4306 7.07048 17.3334Z"
-                />
+                <path d="M7.07048 9.00008C7.52881 9.00008 7.92131 8.83675 8.24798 8.51008C8.57409 8.18397 8.73714 7.79175 8.73714 7.33341C8.73714 6.87508 8.57409 6.48258 8.24798 6.15591C7.92131 5.8298 7.52881 5.66675 7.07048 5.66675C6.61214 5.66675 6.21992 5.8298 5.89381 6.15591C5.56714 6.48258 5.40381 6.87508 5.40381 7.33341C5.40381 7.79175 5.56714 8.18397 5.89381 8.51008C6.21992 8.83675 6.61214 9.00008 7.07048 9.00008ZM7.07048 17.3334C4.83436 15.4306 3.16436 13.6631 2.06048 12.0309C0.956031 10.3992 0.403809 8.88897 0.403809 7.50008C0.403809 5.41675 1.07409 3.75703 2.41464 2.52091C3.75464 1.2848 5.30659 0.666748 7.07048 0.666748C8.83436 0.666748 10.3863 1.2848 11.7263 2.52091C13.0669 3.75703 13.7371 5.41675 13.7371 7.50008C13.7371 8.88897 13.1852 10.3992 12.0813 12.0309C10.9769 13.6631 9.30659 15.4306 7.07048 17.3334Z" />
               </svg>
               <p className="text-subtitle">Jakarta, Indonesia</p>
             </div>
@@ -122,7 +127,9 @@ const Footer = () => {
         </div>
       </div>
       <hr className="border-t-2 border-white my-4" />
-      <p className="text-sm text-subtitle text-center">Copyright 2025 | All Rights Reserved</p>
+      <p className="text-sm text-subtitle text-center">
+        Copyright 2025 | All Rights Reserved
+      </p>
     </footer>
   );
 };

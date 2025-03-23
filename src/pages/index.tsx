@@ -21,7 +21,7 @@ export default function Home() {
   return (
     <div className="relative 2xl:px-[120px] xl:px-[100px] px-8 container flex flex-col gap-10">
       <Navbar />
-      <div className="flex flex-col gap-y-40">
+      <div className="flex flex-col gap-y-48 max-w-[1200px] ">
         <HeroSection />
         <SkillSection />
         <ProjectSection />
