@@ -13,20 +13,25 @@ const Contact = () => {
         className="w-full h-auto"
       ></Image>
       <div className="absolute inset-0 dark:bg-black bg-white opacity-90"></div>
-      <div className="absolute inset-0 flex flex-row gap-2 items-center justify-center z-10 xl:px-12 px-8">
-        <Image
-          src="/paper-plane.png"
-          alt="paper plane"
-          width={80}
-          height={80}
-        ></Image>
-        <div className="flex flex-col gap-2">
-          <p className="text-primary xl:text-[32px] text-3xl font-medium">Get In Touch</p>
-          <p className="text-subtitle xl:text-lg font-semibold">
-            I’m currently looking for any new opportunities. Whether you have a
-            question or just want to say hi, I’ll get back to you as soon as
-            possible
-          </p>
+      <div className="absolute inset-0 flex sm:flex-row flex-col gap-2 items-center justify-center z-10 xl:px-12 px-8">
+        <div className="flex flex-row gap-2 items-center">
+          <Image
+            src="/paper-plane.png"
+            alt="paper plane"
+            width={80}
+            height={80}
+            className="sm:flex hidden"
+          ></Image>
+          <div className="flex flex-col gap-2 sm:text-start text-center">
+            <p className="text-primary xl:text-[32px] text-3xl font-medium">
+              Get In Touch
+            </p>
+            <p className="text-subtitle xl:text-lg font-semibold">
+              I’m currently looking for any new opportunities. Whether you have
+              a question or just want to say hi, I’ll get back to you as soon as
+              possible
+            </p>
+          </div>
         </div>
         <button className="flex flex-row gap-2 items-center justify-center bg-accent-gradient rounded-[30px] w-[240px] h-[60px] px-5 py-4">
           <span className="text-primary text-sm">Contact Me</span>

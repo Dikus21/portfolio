@@ -4,15 +4,15 @@ import ProjectCard from "./ProjectCard";
 const ProjectSection = () => {
   return (
     <div className="flex flex-col items-center gap-10 pb-40">
-      <div className="flex flex-col items-center gap-3">
-        <p className="text-transparent bg-clip-text bg-title-gradient text-5xl font-medium">
+      <div className="flex flex-col items-center gap-3 text-center">
+        <p className="text-transparent bg-clip-text bg-title-gradient 2xl:text-5xl text-4xl font-medium">
           Feature Projects
         </p>
         <p className="text-xl text-subtitle">
           Here are a few past design projects i’ve worked on
         </p>
       </div>
-      <div className="flex flex-wrap lg:justify-between justify-center gap-y-10">
+      <div className="flex flex-wrap lg:justify-between justify-center gap-y-10 w-full">
         <ProjectCard />
         <ProjectCard />
         <ProjectCard />
@@ -30,9 +30,9 @@ const ProjectSection = () => {
           <path
             d="M6.04175 14.5001H22.9584M22.9584 14.5001L14.5001 6.04175M22.9584 14.5001L14.5001 22.9584"
             stroke="#A5A5A5"
-            stroke-width="4"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeWidth="4"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           />
         </svg>
       </div>
