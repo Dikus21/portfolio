@@ -4,18 +4,19 @@ import TechStack from "./TechStack";
 
 const ProjectCard = () => {
   return (
-    <div className="2xl:w-[590px] xl:w-[520] w-[470px] flex flex-col gap-7 p-7 rounded-[20px] dark:bg-black bg-white items-center">
+    <div className="2xl:max-w-[610px] xl:max-w-[520] max-w-[470px] flex flex-col gap-7 p-7 rounded-[20px] dark:bg-[#13131C] bg-[#F3F3F3] items-center">
       <div className="rounded-lg">
         <Image
           src="/simple-bank.png"
           alt="simple bank preview"
           width={520}
           height={300}
+          className="min-w-[200px] h-auto"
         />
       </div>
       <div className="flex flex-col gap-3">
-        <p className="text-3xl text-primary font-semibold">Simple Bank</p>
-        <p className="text-xl text-textContent font-light text-justify">
+        <p className="lg:text-3xl text-2xl text-primary font-semibold">Simple Bank</p>
+        <p className="sm:text-xl text-textContent font-light sm:text-justify">
           ✈️ Transforming flight booking experience by ensuring a seamless
           journey from ticket reservation to check-in. By streamlining payments,
           automating processes, and enhancing booking efficiency, it provides
@@ -23,11 +24,11 @@ const ProjectCard = () => {
           flights.
         </p>
       </div>
-      <div className="grid 2xl:grid-cols-4 grid-cols-3 gap-y-3 w-full items-start">
+      <div className="flex flex-wrap gap-y-3 w-full">
         <TechStack name="Spring Security" />
-        <TechStack name="Spring Security" />
-        <TechStack name="Spring Security" />
-        <TechStack name="Spring Security" />
+        <TechStack name="Tailwind CSS" />
+        <TechStack name="React" />
+        <TechStack name="Vercel" />
         <TechStack name="Spring Security" />
         <TechStack name="Spring Security" />
         <TechStack name="Spring Security" />

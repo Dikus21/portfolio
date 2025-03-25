@@ -33,7 +33,7 @@ const Navbar = () => {
   if (!mounted) return null;
 
   return (
-    <nav className="sticky top-0 left-0 py-4 lg:py-8 w-full bg-[#F3F3F3] dark:bg-[#13131C] dark:bg-opacity-95 bg-opacity-95">
+    <nav className="sticky top-0 py-4 lg:py-8 w-full dark:bg-black dark:bg-opacity-95 bg-white bg-opacity-95 z-50">
       <div className="relative flex justify-between w-full">
         {/* Menu Button (Mobile) */}
         <button
@@ -56,7 +56,7 @@ const Navbar = () => {
         {/* Side Navbar (Mobile) */}
         <div
           ref={menuRef}
-          className={`lg:hidden fixed top-0 left-6 h-screen w-60 bg-background z-40 transition-transform duration-400 ease-in-out transform ${
+          className={`lg:hidden fixed top-0 left-0 h-screen w-60 bg-background z-40 transition-transform duration-400 ease-in-out transform ${
             menuOpen ? "translate-x-0" : "-translate-x-full"
           }`}
         >
