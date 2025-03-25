@@ -12,12 +12,9 @@ const ProjectCard = () => {
           width={520}
           height={300}
           className="min-w-[200px] h-auto"
-          className="min-w-[200px] h-auto"
         />
       </div>
       <div className="flex flex-col gap-3">
-        <p className="lg:text-3xl text-2xl text-primary font-semibold">Simple Bank</p>
-        <p className="sm:text-xl text-textContent font-light sm:text-justify">
         <p className="lg:text-3xl text-2xl text-primary font-semibold">Simple Bank</p>
         <p className="sm:text-xl text-textContent font-light sm:text-justify">
           ✈️ Transforming flight booking experience by ensuring a seamless
