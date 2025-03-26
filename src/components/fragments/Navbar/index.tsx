@@ -32,7 +32,7 @@ const Navbar = () => {
   if (!mounted) return null;
 
   return (
-    <nav className="sticky top-0 py-4 lg:py-8 w-full dark:bg-black dark:bg-opacity-95 bg-white bg-opacity-95 z-50">
+    <nav className="sticky top-0 py-4 lg:py-8 w-full z-50 flex justify-center">
       <div className="relative flex justify-between w-full">
         {/* Menu Button (Mobile) */}
         <button
@@ -225,6 +225,7 @@ const Navbar = () => {
           )}
         </button>
       </div>
+      <div className="absolute w-screen top-0 dark:bg-black bg-white dark:bg-opacity-95 bg-opacity-95 xl:py-12 -z-10"></div>
     </nav>
   );
 };

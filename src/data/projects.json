@@ -1,0 +1,30 @@
+[
+    {
+        "id":1,
+        "name":"Simple Bank",
+        "description":"🏦 Banking should be simple, seamless, and accessible to everyone no exceptions. This app goes beyond just convenience, it's built to remove barriers, ensuring that users of all abilities can manage their finances with ease and confidence.",
+        "githubUrl":"https://github.com/Team-1-RAP/FSW-Frontend",
+        "techStacks":["TypeScript", "React", "Vite", "Tailwind CSS", "Netlify", "ESLint"]
+    },
+    {
+        "id":2,
+        "name":"KeyGo",
+        "description":"🚗 KeyGo offers a seamless and user-friendly platform for browsing rental cars, reading customer reviews, and learning about the company. With a built-in admin panel, it also enables efficient inventory management for smooth operations.",
+        "githubUrl":"https//github.com/Car-Rental-Management-Web",
+        "techStacks":["TypeScript", "React", "Vite", "Bootstrap", "Express.js", "PostgreSQL", "Netlify", "Koyeb"]
+    },
+    {
+        "id":3,
+        "name":"WeFly App API",
+        "description":"✈️ Transforming flight booking experience by ensuring a seamless journey from ticket reservation to check-in. By streamlining payments and automating processes it provides users with a fast, secure, and hassle-free way to manage their flights.",
+        "githubUrl":"https://github.com/WeFly-Team/Backend-Java",
+        "techStacks":["Java", "Spring Boot", "Spring Security", "PostgreSQL", "Midtrans", "Quartz", "Digital Ocean", "Postman"]
+    },
+    {
+        "id":4,
+        "name":"BinarFud App API",
+        "description":"🍽️ Simplifying food ordering with seamless menu management, smooth order processing, and secure access. Customers can easily place and update orders, while merchants and admins manage menus and track sales effortlessly.",
+        "githubUrl":"https://github.com/Dikus21/food-ordering-api",
+        "techStacks":["Java", "Spring Boot", "Spring Security", "Swagger", "Jasper Report", "PostgreSQL"]
+    }
+]

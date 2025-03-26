@@ -1,7 +1,12 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
+import { ProjectDTO } from "@/models/dto/ProjectDTO";
 
-const ProjectSection = () => {
+interface ProjectSectionProps {
+  projects: ProjectDTO[];
+}
+
+const ProjectSection = ({ projects }: ProjectSectionProps) => {
   return (
     <div className="flex flex-col items-center gap-10 pb-40">
       <div className="flex flex-col items-center gap-3 text-center">
@@ -13,10 +18,16 @@ const ProjectSection = () => {
         </p>
       </div>
       <div className="flex flex-wrap lg:justify-between justify-center gap-y-10 w-full">
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
+        {projects.map((project) => (
+          <ProjectCard
+            key={project.id}
+            id={project.id}
+            name={project.name}
+            description={project.description}
+            techStacks={project.techStacks}
+            githubUrl={project.githubUrl}
+          />
+        ))}
       </div>
       <div className="flex flex-row gap-2 items-center w-full justify-end">
         <span className="text-2xl font-semibold text-subtitle">View More</span>

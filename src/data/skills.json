@@ -1,0 +1,68 @@
+[
+    {
+        "id":1,
+        "name":"TypeScript",
+        "description":"JavaScript but better",
+        "baseColor": "3178C6"
+    },
+    {
+        "id":2,
+        "name":"React",
+        "description":"JavaScript library",
+        "baseColor":"00D8FF"
+    },
+    {
+        "id":3,
+        "name":"Vite",
+        "description":"React framework",
+        "baseColor":"FFCC23"
+    },
+    {
+        "id":4,
+        "name":"Next.js",
+        "description":"React framework",
+        "baseColor":"FFFFFF"
+    },
+    {
+        "id":5,
+        "name":"Tailwind CSS",
+        "description": "CSS framework",
+        "baseColor":"00ACC1"
+    },
+    {
+        "id":6,
+        "name":"Express.js",
+        "description":"Node framework",
+        "baseColor":"B0C1D4"
+    },
+    {
+        "id":7,
+        "name":"Java",
+        "description":"Object oriented language",
+        "baseColor":"1565C0"
+    },
+    {
+        "id":8,
+        "name":"Spring",
+        "description":"Java framework",
+        "baseColor":"8BC34A"
+    },
+    {
+        "id":9,
+        "name":"PostgreSQL",
+        "description":"Relational Database",
+        "baseColor":"0277BD"
+    },
+    {
+        "id":10,
+        "name":"Git",
+        "description":"Version Control",
+        "baseColor":"F4511E"
+    },
+    {
+        "id":11,
+        "name":"Node.js",
+        "description":"JavaScript runtime environment",
+        "baseColor":"519F44"
+    }
+]

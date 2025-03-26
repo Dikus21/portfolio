@@ -6,8 +6,8 @@ interface TechStackProps {
 
 const TechStack = ({ name }: TechStackProps) => {
   return (
-    <div className="text-center px-4 py-4 rounded-[30px] dark:bg-[#1D1D1D] bg-[#CCCCCC]">
-      <p className="text-primary">{name}</p>
+    <div className="text-center xl:px-4 px-3 py-4 rounded-[30px] dark:bg-[#1D1D1D] bg-[#CCCCCC]">
+      <p className="text-primary 2xl:text-base text-sm">{name}</p>
     </div>
   );
 };
