@@ -2,49 +2,49 @@
     {
         "id":1,
         "name":"TypeScript",
-        "description":"JavaScript but better",
+        "description":"JavaScript but Better",
         "baseColor": "3178C6"
     },
     {
         "id":2,
         "name":"React",
-        "description":"JavaScript library",
+        "description":"JavaScript Library",
         "baseColor":"00D8FF"
     },
     {
         "id":3,
         "name":"Vite",
-        "description":"React framework",
+        "description":"React Framework",
         "baseColor":"FFCC23"
     },
     {
         "id":4,
         "name":"Next.js",
-        "description":"React framework",
+        "description":"React Framework",
         "baseColor":"FFFFFF"
     },
     {
         "id":5,
         "name":"Tailwind CSS",
-        "description": "CSS framework",
+        "description": "CSS Framework",
         "baseColor":"00ACC1"
     },
     {
         "id":6,
         "name":"Express.js",
-        "description":"Node framework",
+        "description":"Node Framework",
         "baseColor":"B0C1D4"
     },
     {
         "id":7,
         "name":"Java",
-        "description":"Object oriented language",
+        "description":"Object Oriented Language",
         "baseColor":"1565C0"
     },
     {
         "id":8,
         "name":"Spring",
-        "description":"Java framework",
+        "description":"Java Framework",
         "baseColor":"8BC34A"
     },
     {
@@ -62,7 +62,7 @@
     {
         "id":11,
         "name":"Node.js",
-        "description":"JavaScript runtime environment",
+        "description":"JS Runtime Environment",
         "baseColor":"519F44"
     }
 ]

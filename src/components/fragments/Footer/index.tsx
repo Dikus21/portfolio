@@ -2,6 +2,7 @@ import LogoLink from "@/components/elements/LogoLink";
 import Link from "next/link";
 import React from "react";
 import Contact from "./Contact";
+import { motion } from "framer-motion";
 
 const Footer = () => {
   return (
@@ -14,25 +15,29 @@ const Footer = () => {
         <div className="flex flex-col gap-6 sm:w-full w-1/2">
           <p className="text-primary font-bold">Pages</p>
           <div className="flex flex-col gap-1">
-            <Link href={"/"} className="text-primary">
-              Home
-            </Link>
-            <Link href={"/"} className="text-subtitle">
-              Project
-            </Link>
-            <Link href={"/"} className="text-subtitle">
-              About Me
-            </Link>
-            <Link href={"/"} className="text-subtitle">
-              Contact
-            </Link>
+            {[
+              { href: "/", label: "Home", className: "text-primary" },
+              { href: "/project", label: "Project" },
+              { href: "/about", label: "About Me" },
+              { href: "/contact", label: "Contact" },
+            ].map(({ href, label, className = "text-subtitle" }) => (
+              <motion.div
+                key={href}
+                whileHover={{ x: 4 }}
+                transition={{ type: "spring", stiffness: 300 }}
+              >
+                <Link href={href} className={className}>
+                  {label}
+                </Link>
+              </motion.div>
+            ))}
           </div>
         </div>
         <div className="flex flex-col gap-6 sm:w-full w-1/2">
           <p className="text-primary font-bold">Social</p>
           <div className="flex flex-col gap-3">
             <LogoLink
-              link="https://www.google.com/"
+              link="https://www.linkedin.com/in/andika-tirta/"
               logoClassName="p-2"
               name="Linkedin"
             >
@@ -51,7 +56,7 @@ const Footer = () => {
               </svg>
             </LogoLink>
             <LogoLink
-              link="https://www.google.com/"
+              link="https://github.com/Dikus21"
               logoClassName="p-2"
               name="Github"
             >
@@ -66,7 +71,7 @@ const Footer = () => {
               </svg>
             </LogoLink>
             <LogoLink
-              link="https://www.google.com/"
+              link="https://t.me/andikaT001"
               logoClassName="p-2"
               name="Telegram"
             >
@@ -81,7 +86,7 @@ const Footer = () => {
               </svg>
             </LogoLink>
             <LogoLink
-              link="https://www.google.com/"
+              link="https://discordapp.com/users/474949585069146123"
               logoClassName="p-2"
               name="Discord"
             >
