@@ -1,5 +1,5 @@
+/** @type {import('next-sitemap').IConfig} */
 module.exports = {
-    siteUrl: 'https://andikat-porfolio.vercel.app',
+    siteUrl: 'https://andikat-portfolio.vercel.app',
     generateRobotsTxt: true,
-  };
-  
+  };  
