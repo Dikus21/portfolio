@@ -19,7 +19,7 @@ const ProjectCard = ({
   id,
 }: ProjectCardProps) => {
   return (
-    <div className="2xl:max-w-[610px] xl:max-w-[520px] max-w-[470px] flex flex-col gap-7 p-7 rounded-[20px] dark:bg-[#13131C] bg-[#F3F3F3] items-center">
+    <section className="2xl:max-w-[610px] xl:max-w-[520px] max-w-[470px] flex flex-col gap-7 p-7 rounded-[20px] dark:bg-[#13131C] bg-[#F3F3F3] items-center">
       <div className="rounded-lg">
         <Image
           src={`/projects/${id}.png`}
@@ -67,7 +67,7 @@ const ProjectCard = ({
           </p>
         </motion.a>
       </div>
-    </div>
+    </section>
   );
 };
 

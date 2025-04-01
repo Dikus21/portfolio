@@ -5,9 +5,9 @@ import { motion } from "framer-motion";
 
 const HeroSection = () => {
   return (
-    <div className="flex lg:flex-row flex-col xl:gap-32 lg:gap-20 gap-12">
+    <header className="flex lg:flex-row flex-col xl:gap-32 lg:gap-20 gap-12">
       <div className="flex flex-col xl:gap-8 gap-6 lg:max-w-[750px] order-2 lg:order-1">
-        <p className="text-primary xl:text-5xl text-4xl">
+        <h1 className="text-primary xl:text-5xl text-4xl">
           Hi, Andika Here{" "}
           <motion.span
             initial={{ rotate: 0 }}
@@ -17,10 +17,10 @@ const HeroSection = () => {
           >
             👋
           </motion.span>
-        </p>
+        </h1>
 
         <p className="text-textContent xl:text-3xl text-2xl">
-          <span>A software developer from jakarta, Indonesia </span>
+          <span>I&apos;m a software developer from jakarta, Indonesia </span>
           <span>id</span>
         </p>
         <p className="text-textContent xl:text-3xl text-2xl">
@@ -143,7 +143,7 @@ const HeroSection = () => {
         priority
         className="order-1 lg:order-2 w-full max-w-[300px] min-w-[100px] h-auto"
       ></Image>
-    </div>
+    </header>
   );
 };
 

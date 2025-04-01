@@ -32,24 +32,51 @@ function Home({ skills, projects }: HomeProps) {
   return (
     <>
       <Head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Person",
+              name: "Andika Tirta",
+              alternateName: "Andika",
+              url: "https://andikat-portfolio.vercel.app",
+              jobTitle: [
+                "Full-Stack Web Developer",
+                "Frontend Engineer",
+                "Frontend Developer",
+                "Backend Engineer",
+                "Backend Developer",
+              ],
+              description:
+                "Personal portfolio of Andika Tirta, a full-stack web developer from Jakarta who builds intuitive and efficient applications.",
+              sameAs: [
+                "https://github.com/Dikus21",
+                "https://linkedin.com/in/andika-tirta",
+                "https://t.me/andikaT001",
+              ],
+            }),
+          }}
+        />
         <title>Andika Tirta | Full-Stack Developer</title>
         <meta
           name="description"
-          content="Explore my portfolio showcasing full-stack projects built with React, Next.js, and more."
+          content="Hi I'm Andika - a software developer from Jakarta. I like to develop full-stack application that are intuitive and easy to use."
         />
         <meta
           property="og:title"
-          content="Andika Tirta | Full-Stack Developer"
+          content="Meet Andika — Full-Stack Developer from Jakarta"
         />
         <meta
           property="og:description"
-          content="I'm Andika - a software developer from Jakarta, Indonesia. I like to develop full-stack application and focus on making them intuitive and efficient, ensuring they work seamlessly. Let's build something reliable together"
+          content="I focus on building intuitive and reliable applications that feel simple and work smoothly — from front to back."
         />
         <meta
           name="google-site-verification"
           content="6RI2ZIcLiWTEr7tuQRKl8FVSXhTOY8NExurYV2yNEvs"
         />
         <meta property="og:image" content="/og-image.png" />
+        <link rel="icon" href="/icon.ico" />
       </Head>
       <div className="flex justify-center overflow-x-clip">
         <div className="relative 2xl:px-[120px] xl:px-[100px] px-8 container flex flex-col gap-10 ">
