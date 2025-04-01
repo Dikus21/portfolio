@@ -45,6 +45,10 @@ function Home({ skills, projects }: HomeProps) {
           property="og:description"
           content="I'm Andika - a software developer from Jakarta, Indonesia. I like to develop full-stack application and focus on making them intuitive and efficient, ensuring they work seamlessly. Let's build something reliable together"
         />
+        <meta
+          name="google-site-verification"
+          content="6RI2ZIcLiWTEr7tuQRKl8FVSXhTOY8NExurYV2yNEvs"
+        />
         <meta property="og:image" content="/og-image.png" />
       </Head>
       <div className="flex justify-center overflow-x-clip">

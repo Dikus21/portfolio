@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://andikat-porfolio.vercel.app
+
+# Sitemaps
+Sitemap: https://andikat-porfolio.vercel.app/sitemap.xml
