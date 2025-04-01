@@ -28,7 +28,7 @@ const HeroSection = () => {
           intuitive and efficient, ensuring they work seamlessly
         </p>
         <p className="text-textContent xl:text-3xl text-2xl">
-          Let&apos;s build something useful and reliable
+          Let&apos;s build something reliable together
         </p>
         <div className="flex flex-wrap gap-5">
           <motion.a
