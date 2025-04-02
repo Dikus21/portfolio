@@ -138,7 +138,7 @@ const Navbar = () => {
           whileTap={{ scale: 0.9 }}
           whileHover={{ scale: 1.05 }}
           transition={{ type: "spring", stiffness: 300 }}
-          className="p-2 rounded"
+          className="py-2 rounded"
         >
           <AnimatePresence mode="wait" initial={false}>
             {theme === "light" ? (

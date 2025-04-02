@@ -5,8 +5,8 @@ import { motion } from "framer-motion";
 
 const HeroSection = () => {
   return (
-    <header className="flex lg:flex-row flex-col xl:gap-32 lg:gap-20 gap-12">
-      <div className="flex flex-col xl:gap-8 gap-6 lg:max-w-[750px] order-2 lg:order-1">
+    <header className="flex lg:flex-row flex-col xl:gap-32 lg:gap-20 gap-12" >
+      <div className="flex flex-col xl:gap-8 gap-6 order-2 lg:order-1">
         <h1 className="text-primary xl:text-5xl text-4xl">
           Hi, Andika Here{" "}
           <motion.span
