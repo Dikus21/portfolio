@@ -1,11 +1,11 @@
 // import Image from "next/image";
 // import { Geist, Geist_Mono } from "next/font/google";
 
-import Footer from "@/components/fragments/Footer";
-import HeroSection from "@/components/fragments/HeroSection";
+import Footer from "@/components/fragments/Home/Footer";
+import HeroSection from "@/components/fragments/Home/HeroSection";
 import Navbar from "@/components/fragments/Navbar";
-import ProjectSection from "@/components/fragments/ProjectSection";
-import SkillSection from "@/components/fragments/SkillSection";
+import ProjectSection from "@/components/fragments/Home/ProjectSection";
+import SkillSection from "@/components/fragments/Home/SkillSection";
 import { SkillDTO } from "@/models/dto/SkillDTO";
 import skills from "@/data/skills.json";
 import projects from "@/data/projects.json";
