@@ -15,7 +15,16 @@ const UnderConstruction = () => {
   return (
     <>
       <Head>
-        <title>404</title>
+        <title>Under Construction</title>
+        <meta
+          name="description"
+          content="Page Under Construction - Check Back Soon"
+        />
+        <meta property="og:title" content="Under Construction" />
+        <meta
+          property="og:description"
+          content="Page Under Construction - Check Back Soon"
+        />
       </Head>
       <main
         className={`flex min-h-screen items-center justify-center bg-background ${inter.className}`}

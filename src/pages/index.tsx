@@ -76,7 +76,6 @@ function Home({ skills, projects }: HomeProps) {
           content="6RI2ZIcLiWTEr7tuQRKl8FVSXhTOY8NExurYV2yNEvs"
         />
         <meta property="og:image" content="/og-image.png" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="flex justify-center overflow-x-clip">
         <div className="relative 2xl:px-[120px] xl:px-[100px] px-8 container flex flex-col gap-10 ">

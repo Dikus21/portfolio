@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://andikat-porfolio.vercel.app
+Host: https://andikat-portfolio.vercel.app
 
 # Sitemaps
-Sitemap: https://andikat-porfolio.vercel.app/sitemap.xml
+Sitemap: https://andikat-portfolio.vercel.app/sitemap.xml
