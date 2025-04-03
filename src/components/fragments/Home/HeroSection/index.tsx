@@ -32,7 +32,7 @@ const HeroSection = () => {
         </p>
         <div className="flex flex-wrap gap-5">
           <motion.a
-            href="/resume.pdf"
+            href="/pdfs/resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.05 }}
