@@ -38,7 +38,7 @@ const ProjectSection = ({ projects }: ProjectSectionProps) => {
         className="flex justify-end w-full"
       >
         <Link
-          href="/project"
+          href="/projects"
           className="flex flex-row gap-2 items-center group"
         >
           <span className="text-2xl font-semibold text-subtitle transition-transform duration-200 group-hover:translate-x-1">
