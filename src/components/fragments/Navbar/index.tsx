@@ -89,7 +89,7 @@ const Navbar = () => {
               About
             </Link>
             <Link
-              href={"/project"}
+              href={"/projects"}
               className="text-[#696F79] opacity-55 cursor-pointer hover:text-primary hover:opacity-100"
             >
               Project
