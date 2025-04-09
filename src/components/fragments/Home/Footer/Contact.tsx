@@ -11,7 +11,7 @@ const Contact = () => {
         width={0}
         height={0}
         sizes="100vw"
-        className="w-full h-auto"
+        className="w-full md:h-auto sm:h-40 h-72"
       ></Image>
       <div className="absolute inset-0 dark:bg-black bg-white opacity-90"></div>
       <div className="absolute inset-0 flex sm:flex-row flex-col gap-2 items-center justify-center z-10 xl:px-12 px-8">
