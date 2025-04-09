@@ -120,7 +120,7 @@ const Navbar = () => {
             About
           </Link>
           <Link
-            href={"/project"}
+            href={"/projects"}
             className="lg:inline-block text-[#696F79] opacity-70 cursor-pointer hover:text-primary hover:opacity-100"
           >
             Project
