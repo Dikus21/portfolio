@@ -105,7 +105,12 @@ const Footer = () => {
         <div className="sm:flex flex-col gap-6 hidden">
           <p className="text-primary font-bold">Contact</p>
           <div className="flex flex-col gap-2">
-            <div className="flex flex-row gap-2.5">
+            <a
+              className="flex flex-row gap-2.5"
+              href="mailto:andikatirta001@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <svg
                 width="17"
                 height="14"
@@ -116,7 +121,7 @@ const Footer = () => {
                 <path d="M0.570312 13.6666V8.66658L7.23698 6.99992L0.570312 5.33325V0.333252L16.4036 6.99992L0.570312 13.6666Z" />
               </svg>
               <p className="text-subtitle">andikatirta001@gmail.com</p>
-            </div>
+            </a>
             <div className="flex flex-row gap-2.5">
               <svg
                 width="17"
@@ -136,7 +141,12 @@ const Footer = () => {
       <div className="flex flex-col gap-4 sm:hidden">
         <p className="text-primary font-bold">Contact</p>
         <div className="flex flex-col gap-2">
-          <div className="flex flex-row gap-2.5">
+          <a
+            className="flex flex-row gap-2.5"
+            href="mailto:andikatirta001@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <svg
               width="17"
               height="14"
@@ -147,7 +157,7 @@ const Footer = () => {
               <path d="M0.570312 13.6666V8.66658L7.23698 6.99992L0.570312 5.33325V0.333252L16.4036 6.99992L0.570312 13.6666Z" />
             </svg>
             <p className="text-subtitle">andikatirta001@gmail.com</p>
-          </div>
+          </a>
           <div className="flex flex-row gap-2.5">
             <svg
               width="17"
