@@ -10,7 +10,7 @@
         "id":2,
         "name":"KeyGo",
         "description":"🚗 KeyGo offers a seamless and user-friendly platform for browsing rental cars, reading customer reviews, and learning about the company. With a built-in admin panel, it also enables efficient inventory management for smooth operations.",
-        "githubUrl":"https//github.com/Car-Rental-Management-Web",
+        "githubUrl":"https://github.com/Dikus21/Car-Rental-Management-Web",
         "techStacks":["TypeScript", "React", "Vite", "Bootstrap", "Express.js", "PostgreSQL", "Netlify", "Koyeb"]
     },
     {
